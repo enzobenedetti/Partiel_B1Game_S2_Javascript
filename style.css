@@ -1,0 +1,71 @@
+/* Reset all */
+* { margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grille{
+    position: relative;
+    min-width: 600px;
+    min-height: 600px;
+}
+
+.case{
+    width: 33%;
+    height: 33%;
+    position: absolute;
+    z-index: 10;
+}
+
+.ii{
+    top: 0;
+    left: 0;
+}
+
+.iz{
+    top: 0;
+    margin-left: 200px;
+}
+
+.ie{
+    top: 0;
+    right: 0;
+}
+
+.zi{
+    left: 0;
+    margin-top: 200px;
+}
+
+.zz{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.ze{
+    right: 0;
+    margin-top: 200px;
+}
+
+.ei{
+    bottom: 0;
+    left: 0;
+}
+
+.ez{
+    bottom: 0;
+    margin-left: 200px;
+}
+
+.ee{
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Tic Tac Toe !</title>
+    </head>
+    <body>
+        <div id="scoreblue">Blue : 0</div>
+        <div id="scorered">Red : 0</div>
+        <div class="container">
+            <div class="grille">
+                <div class="case ii">
+                    <img class="grid_blank" id="11" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case iz">
+                    <img class="grid_blank" id="12" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case ie">
+                    <img class="grid_blank" id="13" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case zi">
+                    <img class="grid_blank" id="21" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case zz">
+                    <img class="grid_blank" id="22" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case ze">
+                    <img class="grid_blank" id="23" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case ei">
+                    <img class="grid_blank" id="31" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case ez">
+                    <img class="grid_blank" id="32" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+                <div class="case ee">
+                    <img class="grid_blank" id="33" onclick="gridClicked(this)" src="assets\\grid.png">
+                </div>
+            </div>
+        </div>
+        <button type="button" onclick="startGameDuo()">Start Game with a friend !</button>
+        <button type="button" onclick="startGameSolo()">Start Game with a bot !</button>
+    </body>
+</html>
